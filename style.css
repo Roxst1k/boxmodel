@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 1440px;
+    height: 900px;
+    background: #3399CC;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    border: 25px solid #2B81AC;
+    margin: 0 auto;
+    padding: 41px 0 0 110px;
+}
+
+.tittle {
+    width: 263px;
+    height: 34px;
+    margin-bottom: 38px;
+}
+
+.main p {
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    /*display: inline;*/
+}
+
+.city {
+    width: 1170px;
+    height: 592px;
+    font-size: 0;
+    border: 1px solid white;
+}
+
+.city_list {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding-top: 28px;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.city_list:hover p{
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.city_list:hover {
+    opacity: 0.5;
+}
+
+.city_list p {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.city_list i {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 2.03em;
+}
+
+/*.city_name {*/
+/*    margin-bottom: 19px;*/
+/*}*/
+
+
+li:nth-child(1) {
+    width: 50%;
+    height: 25%;
+    background-color: #3399CC;
+    border: 2px solid #ffffff;
+
+}
+
+li:nth-child(2) {
+    width: 25%;
+    height: 25%;
+    background: #33CCCC;
+    border: 2px solid #FFFFFF;
+}
+
+li:nth-child(3) {
+    width: 25%;
+    height: 25%;
+    background: #996699;
+    border: 2px solid #FFFFFF;
+}
+
+li:nth-child(4) {
+    width: 25%;
+    height: 25%;
+    background: #C24747;
+    border: 2px solid #FFFFFF;
+}
+
+li:nth-child(5) {
+    width: 25%;
+    height: 25%;
+    background: #E2674A;
+    border: 2px solid #FFFFFF;
+}
+
+li:nth-child(6) {
+    width: 25%;
+    height: 25%;
+    background: #FFCC66;
+    border: 2px solid #FFFFFF;
+}
+
+li:nth-child(7) {
+    width: 25%;
+    height: 25%;
+    background: #99CC99;
+    border: 2px solid #FFFFFF;
+}
+
+li:nth-child(8) {
+    width: 25%;
+    height: 25%;
+    background: #669999;;
+    border: 2px solid #FFFFFF;
+}
+
+li:nth-child(9) {
+    width: 50%;
+    height: 25%;
+    background: #CC6699;
+    border: 2px solid #FFFFFF;
+}
+
+li:nth-child(10) {
+    width: 25%;
+    height: 25%;
+    background: #339966;
+    border: 2px solid #FFFFFF;
+}
+
+li:nth-child(11) {
+    width: 100%;
+    height: 25%;
+    background: #339966;
+    border: 2px solid #FFFFFF;
+}
+
+
+@font-face {
+    font-family: 'Lucida Sans Unicode';
+    src: url("./font/lucidasansunicode.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
