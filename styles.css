@@ -8,8 +8,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #F2F2F2;
 }
-
+/* Header*/
 .header {
     width: 1440px;
     height: 80px;
@@ -59,7 +60,7 @@ body {
     text-decoration: none;
 }
 
-li:first-child a {
+a:hover {
     color: #FF9900;
 }
 
@@ -114,6 +115,7 @@ li:last-child button {
     width: 1200px;
     height: 495px;
     margin-top: 70px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -148,7 +150,9 @@ li:last-child button {
     margin-bottom: 20px;
 }
 
-.left_side button {
+.left_side button,
+.form__button,
+.features__button{
     width: 180px;
     height: 50px;
     background: #FF9900;
@@ -173,4 +177,183 @@ li:last-child button {
     width: 644px;
     height: 495px;
 
+}
+
+                                    /*Features*/
+
+.features {
+    width: 1440px;
+    height: 510px;
+    position: relative;
+}
+
+.features__background {
+    width: 1440px;
+    height: 388px;
+    position: absolute;
+    bottom: 5px;
+    background-image: url("./img/bg.png");
+    z-index: -1;
+}
+
+.features__title {
+    font-family: 'Montserrat', sans-serif;
+    width: 539px;
+    height: 88px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.22em;
+    text-align: center;
+    color: #2F281E;
+    margin: 0 auto 50px;
+}
+
+.features__card {
+    width: 1200px;
+    margin: 0 auto 70px;
+}
+
+.features__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.features__list {
+    list-style-type: none;
+    width: 270px;
+}
+
+.feature__img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.features__subtitle {
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.23em;
+    color: #2F281E;
+    margin-bottom: 16px;
+}
+
+.features__text {
+    font-family: 'Montserrat' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62em;
+    color: #544837;
+}
+
+.features__button {
+    margin: 0 auto;
+}
+
+                                    /*Footer*/
+
+.footer {
+    width: 1440px;
+    height: 350px;
+    border-top: 2px solid rgba(188, 208, 229, 0.496913);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__content {
+    width: 1200px;
+    height: 209px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-list {
+    width: 135px;
+}
+
+
+.footer-list__title,
+.form__title{
+    font-family:'Gotham' , sans-serif;
+    /*font-weight: 700;*/
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #2F281E;
+    margin-bottom: 30px;
+}
+
+.footer-list__items {
+    height: 149px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-list__item {
+    list-style-type: none;
+}
+
+.footer-list__link {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62em;
+    color: #544837;
+}
+
+.form {
+    width: 340px;
+    height: 207px;
+}
+
+.form__title {
+    width: 280px;
+    height: 57px;
+    font-family:'Gotham' , sans-serif;
+    font-size: 20px;
+    line-height:1.5em;
+    color: #2F281E;
+    margin-bottom: 25px;
+}
+
+.form__input {
+    width: 340px;
+    height: 50px;
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #BCD0E5;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+.form__input::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #BCD0E5;
+}
+
+
+
+@font-face {
+    font-family: 'Gotham';
+    src: local('Gotham Bold'), local('Gotham-Bold'),
+    url('./font/Gotham-Bold.woff2') format('woff2'),
+    url('./font/Gotham-Bold.woff') format('woff'),
+    url('./font/Gotham-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
 }
